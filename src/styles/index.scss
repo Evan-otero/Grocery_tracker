@@ -1,3 +1,60 @@
 /* 
     General Styles
 */
+/* 
+    General Styles
+*/
+body{
+    background-color:gainsboro;
+}
+.container{
+    font-family: 'PT Sans', sans-serif;
+}
+.login{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    border-style: groove;
+    border-width: medium;
+    padding: 0px;
+}
+.center{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.logintitle{
+    background-color: #6aba54;
+    margin: 0px;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+.types{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 5%;
+}
+.tb{
+    padding-right: 5px;
+}
+.cardrow{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.card{
+    margin-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.1);
+    transition: all 300ms;
+}
+.card:hover{
+    transform: scale(1.05)
+}
